@@ -1,0 +1,412 @@
+{
+//该翻译补丁经检查没有任何问题。
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+  "UIDictionary": 
+  {
+    "$CALLISTHESIS_GAMEOVER_THESIS": "多亏了你，卡莉丝得以展示她的论文。",
+    "$CALLISTHESIS_GAMEOVER_FAKE": "卡莉丝出了洋相。你还拿她开了个好玩笑。",
+    "The Boiled Egg": "煮鸡蛋星",
+    "Archive Transponder": "档案馆应答器",
+    "Nomai Archives": "挪麦档案馆"
+  },
+
+  "DialogueDictionary": {
+    // == Festival Area ==
+    // -- Main Dialogues --
+    // Callis
+    "$CALLISTHESIS_CALLIS_NAME": "卡莉丝",
+    "$CALLISTHESIS_CALLIS_DEFAULT": "哦不……这下糟了……真的糟透了……",
+    "$CALLISTHESIS_CALLIS_DEFAULT_CHOICE_HI": "你好？",
+    "$CALLISTHESIS_CALLIS_DEFAULT_CHOICE_THESIS": "嘿，我想这是你掉的。",
+
+    "$CALLISTHESIS_CALLIS_POSTINITIAL": "这下糟了……真的糟透了……\n你找到卷轴了吗？",
+    "$CALLISTHESIS_CALLIS_POSTINITIAL_CHOICE_THESIS": "找到了，给你。",
+    "$CALLISTHESIS_CALLIS_POSTINITIAL_CHOICE_NO": "还没呢。",
+    "$CALLISTHESIS_CALLIS_POSTINITIAL_CHOICE_PASSWORD": "没有，我需要密码才能获取它。",
+    "$CALLISTHESIS_CALLIS_POSTINITIAL_CHOICE_REM": "我再问一下，我要找的是什么来着？",
+
+    "$CALLISTHESIS_CALLIS_POSTPASSWORD": "这下糟了……真的糟透了……\n你找到卷轴了吗？",
+    "$CALLISTHESIS_CALLIS_POSTPASSWORD_CHOICE_THESIS": "找到了，给你。",
+    "$CALLISTHESIS_CALLIS_POSTPASSWORD_CHOICE_NO": "还没呢。",
+    "$CALLISTHESIS_CALLIS_POSTPASSWORD_CHOICE_PASSWORDREM": "能再提醒我一下密码线索吗？",
+    "$CALLISTHESIS_CALLIS_POSTPASSWORD_CHOICE_REM": "我再问一下，我要找的是什么来着？",
+
+    "$CALLISTHESIS_CALLIS_ENDDIALOGUE": "请快点……",
+
+    "$CALLISTHESIS_CALLIS_ENDING_FAST": "等等，这是……",
+    "$CALLISTHESIS_CALLIS_ENDING_SLOW_1": "希望拿回来的过程没太费劲。",
+    "$CALLISTHESIS_CALLIS_ENDING_SLOW_1_CHOICE_POS": "没事，我还学到了不少东西。",
+    "$CALLISTHESIS_CALLIS_ENDING_SLOW_1_CHOICE_NEG": "我再也不想听到任何关于bukrads的事了。",
+    "$CALLISTHESIS_CALLIS_ENDING_SLOW_2": "哦，听你这么说我很抱歉……不过不管怎么说……",
+    "$CALLISTHESIS_CALLIS_ENDING_BASE": "太谢谢你了朋友！你真是我的救星！",
+
+    "$CALLISTHESIS_CALLIS_INITIAL_1": "哦你好！我叫卡莉丝。我好像没见过你？",
+    "$CALLISTHESIS_CALLIS_INITIAL_1_REPLY": "怎么了？你看起来好像在担心什么。",
+    "$CALLISTHESIS_CALLIS_INITIAL_2": "哦，这个嘛……呃……有点不好意思。\n你看，今天对我来说是个大日子。这是我第一次在发现节上发表成果，我马上要向其他挪麦人展示我的论文了。",
+    "$CALLISTHESIS_CALLIS_INITIAL_2_REPLY": "这不是好事吗？",
+    "$CALLISTHESIS_CALLIS_INITIAL_3": "嗯，是好事，但我……可能把卷轴弄丢了？\n没有它我没法展示论文啊。在大家面前我肯定会像个傻瓜一样，这太糟糕了！",
+    "$CALLISTHESIS_CALLIS_INITIAL_3_CHOICE_HELP": "或许我能帮上忙？",
+    "$CALLISTHESIS_CALLIS_INITIAL_3_CHOICE_LEAVE": "哦，那肯定会很有意思。到时候见！",
+    "$CALLISTHESIS_CALLIS_INITIAL_4_1": "我已经到处都找过了，所以我觉得你可能也……",
+    "$CALLISTHESIS_CALLIS_INITIAL_4_2": "等等……",
+    "$CALLISTHESIS_CALLIS_INITIAL_4_3": "对了！我记得我在档案馆存了一份备份（就怕发生这种事）。\n如果能拿到那份备份，我就能展示论文了。\n你能行行好帮我去拿一下吗？",
+    "$CALLISTHESIS_CALLIS_INITIAL_4_CHOICE_POS": "听起来可以。",
+    "$CALLISTHESIS_CALLIS_INITIAL_4_CHOICE_NEG": "无意冒犯，但你不能自己去拿吗？",
+    "$CALLISTHESIS_CALLIS_INITIAL_5": "恐怕我得留在这儿。我还有些东西要准备，而且我走了的话大家会注意到的。",
+    "$CALLISTHESIS_CALLIS_INITIAL_5_REPLY": "有道理。那你需要的是哪份卷轴？",
+    "$CALLISTHESIS_CALLIS_INITIAL_6": "谢谢你，你真是我的救命恩人！我记得它应该是以我的名字存档的，“卡莉丝#001-论文”。\n如果你没去过的话，档案馆在北极。",
+    "$CALLISTHESIS_CALLIS_INITIAL_6_REPLY": "我会带着它回来的。",
+    "$CALLISTHESIS_CALLIS_INITIAL_REM": "我在档案馆的论文卷轴，我记得应该是以我的名字存档的，“卡莉丝#001-论文”。\n如果你没去过的话，档案馆在北极。",
+    "$CALLISTHESIS_CALLIS_INITIAL_REM_REPLY": "我会带着它回来的。",
+
+    "$CALLISTHESIS_CALLIS_PASSWORD_1": "哦，对了。我忘了这茬了。\n我设置了密码，这样我的研究成果的第一批观众就只会在我的展示会上。\n我发誓，仪式结束后我就会取消密码的！",
+    "$CALLISTHESIS_CALLIS_PASSWORD_1_REPLY": "那密码是什么？我们现在就得要，在仪式开始<![CDATA[<i>之前</i>]]>。",
+    "$CALLISTHESIS_CALLIS_PASSWORD_2_1": "当然了。让我想想。密码是……",
+    "$CALLISTHESIS_CALLIS_PASSWORD_2_2": "是……",
+    "$CALLISTHESIS_CALLIS_PASSWORD_2_REPLY": "你该不会连密码也忘了吧？",
+    "$CALLISTHESIS_CALLIS_PASSWORD_3_1": "没有！\n……\n可能有点记不清了。但我有个便条用来记密码，你看！",
+    "$CALLISTHESIS_CALLIS_PASSWORD_3_2": "“嘿，我自己！你可能又忘了密码了，所以我写了这个秘密便条来帮你记起来！”",
+    "$CALLISTHESIS_CALLIS_PASSWORD_3_3": "“密码的第一部分是父母带你去参加第一次发现节时你的年龄。”",
+    "$CALLISTHESIS_CALLIS_PASSWORD_3_4": "“密码的第二部分是档案馆的广播信号（假设自从我设置密码后它没改过）。”",
+    "$CALLISTHESIS_CALLIS_PASSWORD_3_5": "“密码的第三部分是红腹角布克拉德的腿的数量。”",
+    "$CALLISTHESIS_CALLIS_PASSWORD_3_REPLY": "我一点都没听懂。",
+    "$CALLISTHESIS_CALLIS_PASSWORD_4_1": "嗯，我把它设得复杂点是为了保证密码的安全。",
+    "$CALLISTHESIS_CALLIS_PASSWORD_4_2": "第一部分是10。我永远都忘不了第一次参加发现节的那天。我认识了好多人，还学到了好多神奇的东西！",
+    "$CALLISTHESIS_CALLIS_PASSWORD_4_REPLY": "那剩下的呢？",
+    "$CALLISTHESIS_CALLIS_PASSWORD_5": "这个嘛……",
+    "$CALLISTHESIS_CALLIS_PASSWORD_5_REPLY": "你忘了？",
+    "$CALLISTHESIS_CALLIS_PASSWORD_6": "我忘了。",
+    "$CALLISTHESIS_CALLIS_PASSWORD_6_REPLY": "我就知道。",
+    "$CALLISTHESIS_CALLIS_PASSWORD_7": "祝你好运？",
+    "$CALLISTHESIS_CALLIS_PASSWORD_7_CHOICE_POS": "谢谢，大概吧。",
+    "$CALLISTHESIS_CALLIS_PASSWORD_7_CHOICE_NEG": "知道吗，我还是先去别的星球探险吧。",
+    "$CALLISTHESIS_CALLIS_PASSWORD_REM_1": "当然，是这样的：\n“嘿，我自己！你可能又忘了密码了，所以我写了这个秘密便条来帮你记起来！”",
+    "$CALLISTHESIS_CALLIS_PASSWORD_REM_2": "“密码的第一部分是父母带你去参加第一次发现节时你的年龄。”",
+    "$CALLISTHESIS_CALLIS_PASSWORD_REM_3": "“密码的第二部分是档案馆的广播信号（假设自从我设置密码后它没改过）。”",
+    "$CALLISTHESIS_CALLIS_PASSWORD_REM_4": "“密码的第三部分是红腹角布克拉德的腿的数量。”",
+    "$CALLISTHESIS_CALLIS_PASSWORD_REM_REPLY": "10，广播信号，布克拉德的腿，记下了。",
+
+    // -- Filler Dialogues --
+    // Nomai Linguist
+    "$CALLISTHESIS_NOMAILINGUIST_NAME": "挪麦语言学家",
+    "$CALLISTHESIS_NOMAILINGUIST_DEFAULT": "Nie mówię po polsku. （我不说波兰语。）",
+    "$CALLISTHESIS_NOMAILINGUIST_DEFAULT_REPLY": "哇哦！在所有模组里，这个的波兰味最浓！",
+
+    // == Archives Area ==
+    // -- Filler Dialogues --
+    // Ernesto
+    "$CALLISTHESIS_ERNESTO_NAME": "厄内斯托",
+    "$CALLISTHESIS_ERNESTO_1": "嘿。",
+    "$CALLISTHESIS_ERNESTO_1_REPLY": "厄内斯托？你在这儿干什么？",
+    "$CALLISTHESIS_ERNESTO_2": "逃税。",
+    "$CALLISTHESIS_ERNESTO_2_REPLY": "哦，好吧，那你继续。",
+    // Nomai stuck on ceiling
+    "$CALLISTHESIS_NOMAIONCEILING_NAME": "科琳",
+    "$CALLISTHESIS_NOMAIONCEILING_1": "救命……",
+    "$CALLISTHESIS_NOMAIONCEILING_2": "这个光束……太强了……",
+    // Queueing Nomai 1
+    "$CALLISTHESIS_QUEUEINGNOMAI1_NAME": "阿斯蒂尔贝",
+    "$CALLISTHESIS_QUEUEINGNOMAI1_1": "终于快到我了……",
+    "$CALLISTHESIS_QUEUEINGNOMAI1_2": "我应该能赶上赤道的发现节。",
+    // Queueing Nomai 2
+    "$CALLISTHESIS_QUEUEINGNOMAI2_NAME": "阿利昂",
+    "$CALLISTHESIS_QUEUEINGNOMAI2_DEFAULT": "我宁愿做任何其他事也不想在这儿待着。",
+
+    // -- Main Dialogues --
+    // Frontdesk guard
+    "$CALLISTHESIS_FRONTDESKGUARD_NAME": "卡尼亚",
+    "$CALLISTHESIS_FRONTDESKGUARD_DEFAULT": "请排队等候。",
+    "$CALLISTHESIS_FRONTDESKGUARD_DEFAULT_REPLY": "但这事很紧急！",
+    "$CALLISTHESIS_FRONTDESKGUARD_REFUSAL": "我们会尽力为所有人提供服务。请从后面的售票机拿一张票，然后等候叫号。",
+    "$CALLISTHESIS_FRONTDESKGUARD_POSTREFUSAL": "请从后面的售票机拿一张票，然后等候叫号。",
+    "$CALLISTHESIS_FRONTDESKGUARD_LUNCHBREAK": "我们的前台工作人员正在午休，但你可以使用自动助手。",
+
+    // Ticket dispenser
+    "$CALLISTHESIS_TICKETDISPENSER_BASE": "当前叫号#F102。",
+    "$CALLISTHESIS_TICKETDISPENSER_BASE_CHOICE_CHECK": "*查看我的票*",
+    "$CALLISTHESIS_TICKETDISPENSER_BASE_CHOICE_GRAB": "*拿一张票*",
+    "$CALLISTHESIS_TICKETDISPENSER_BASE_CHOICE_GRABALL": "*把所有票都拿走*",
+    "$CALLISTHESIS_TICKETDISPENSER_EXIT": "感谢您的耐心等待。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET1_GRAB": "已出票#K594。预计等待时间2小时12分钟。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET1_CHECK": "您的票是#K594。预计等待时间2小时12分钟。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET2_GRAB": "已出票#P771。预计等待时间3小时42分钟。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET2_CHECK": "您的票是#P771。预计等待时间3小时42分钟。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET3_GRAB": "已出票#D401。预计等待时间45分钟。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET3_CHECK": "您的票是#D401。预计等待时间45分钟。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET4_GRAB": "已出票#Z999。预计等待时间36亿年。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET4_CHECK": "您的票是#Z999。预计等待时间36亿年。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET5_GRAB": "已出票#U816。预计等待时间64天。",
+    "$CALLISTHESIS_TICKETDISPENSER_TICKET5_CHECK": "您的票是#U816。预计等待时间64天。",
+    "$CALLISTHESIS_TICKETDISPENSER_GRABALL": "*在这些票里，你找到了#A103号票*",
+    "$CALLISTHESIS_TICKETDISPENSER_DEPLETED_1": "当前叫号#A103。\n警告！本机已无纸，无法再出票。请通知附近的工作人员补充纸张。",
+    "$CALLISTHESIS_TICKETDISPENSER_DEPLETED_1_REPLY": "*查看我的票*",
+    "$CALLISTHESIS_TICKETDISPENSER_DEPLETED_2": "您的票是#A103。可以去前台办理了。",
+    "$CALLISTHESIS_TICKETDISPENSER_DEPLETED_2_REPLY": "终于。",
+
+    // Aster (The goat rambles a lot)
+    "$CALLISTHESIS_ASTER_NAME": "埃斯特",
+    "$CALLISTHESIS_ASTER_DEFAULT": "早上好啊，亲爱的。",
+    "$CALLISTHESIS_ASTER_DEFAULT_CHOICE_HI": "早上好，夫人。",
+    "$CALLISTHESIS_ASTER_DEFAULT_CHOICE_CUTLINE": "抱歉夫人，我赶时间，能让我插到前面吗？",
+    "$CALLISTHESIS_ASTER_DEFAULT_CHOICE_BUKRAD": "打扰一下夫人，您碰巧知道关于布克拉德的事吗？",
+
+    "$CALLISTHESIS_ASTER_CUTLINE_1_1": "打扰一下？真是太无礼了！哪有这么跟老人家说话的！",
+    "$CALLISTHESIS_ASTER_CUTLINE_1_2": "连招呼都不打就想插队。现在的年轻人啊！",
+    "$CALLISTHESIS_ASTER_CUTLINE_1_3": "我们那时候，都会耐心排队，表现得像个有教养的挪麦人。我们甚至会把位置让给长辈。",
+    "$CALLISTHESIS_ASTER_CUTLINE_1_4": "我记得我6岁那年，有个老先生走进沙拉店。所有人都让开，让他先点单。那时候我们多有礼貌啊。那位老先生甚至都不用付钱，员工们太有礼貌了。",
+    "$CALLISTHESIS_ASTER_CUTLINE_1_5": "不过说真的，这跟他是店主一点关系都没有。",
+    "$CALLISTHESIS_ASTER_CUTLINE_2_1": "哦，我以前可喜欢那家沙拉餐厅了。是叫“沙拉宫”来着吗？我这只老山羊在那儿待过好多天呢。",
+    "$CALLISTHESIS_ASTER_CUTLINE_2_2": "他们的生菜配樱桃番茄真是美味极了。到现在我都想知道他们是怎么把蔬菜种得那么熟的。",
+    "$CALLISTHESIS_ASTER_CUTLINE_2_3": "是自家种的，还是有专门的供应商？现在的年轻人都觉得理所当然，但新鲜的食材真的能做出好味道。",
+    "$CALLISTHESIS_ASTER_CUTLINE_3_1": "你知道吗，我自己也试过种菜？",
+    "$CALLISTHESIS_ASTER_CUTLINE_3_2": "我家房子后面有块绝佳的菜地。阳光充足，特别适合植物生长。我还买了新的工装裤，全身心投入到园艺中。",
+    "$CALLISTHESIS_ASTER_CUTLINE_3_3": "呵呵，小伙子们看到我这只小山羊穿着园艺服有多可爱，肯定会心动的。不过可惜啊，我得专心照顾我的植物。",
+    "$CALLISTHESIS_ASTER_CUTLINE_4_1": "我还读了很多书来学习怎么种好。亲爱的，你也该多读书，不然都不知道自己错过了什么知识。",
+    "$CALLISTHESIS_ASTER_CUTLINE_4_2": "我的眼睛不太好使了，但睡前还是喜欢看会儿卷轴。有时候我亲爱的特穆会好心地给我读，我就能安安稳稳睡着了。",
+    "$CALLISTHESIS_ASTER_CUTLINE_4_3": "你们年轻人喜欢轰轰烈烈地生活，但总有一天会明白，安稳下来也是一种福气。",
+    "$CALLISTHESIS_ASTER_CUTLINE_CHOICE_LISTEN": "……",
+    "$CALLISTHESIS_ASTER_CUTLINE_CHOICE_LEAVE": "*离开*",
+    "$CALLISTHESIS_ASTER_CUTLINE_CHOICE_SNOOZE": "*zzz*",
+    "$CALLISTHESIS_ASTER_CUTLINE_CHOICE_QUESTION": "那您来这儿是做什么呢，夫人？",
+    "$CALLISTHESIS_ASTER_CUTLINE_5_1": "哦，是那些档案管理员，连左右都分不清。\n有人告诉我有些卷轴出现了损坏问题。",
+    "$CALLISTHESIS_ASTER_CUTLINE_5_2": "所以他们就把我这只老山羊叫来，想让我修复一下，把缺失的数据重写出来。\n我好多作品都存在这儿呢，我可不想因为某个不懂怎么处理卷轴的顽固分子而把它们弄丢了。",
+    "$CALLISTHESIS_ASTER_CUTLINE_5_3": "我这把老骨头站这么久可受不了，我想去找个地方坐会儿。\n谢谢你陪我聊这么久，亲爱的。",
+    "$CALLISTHESIS_ASTER_CUTLINE_5_REPLY": "不客气，夫人。",
+    "$CALLISTHESIS_ASTER_CUTLINE_6": "来，你急着赶路，这张票给你吧。\n等我腿歇过来了再去拿一张。",
+    "$CALLISTHESIS_ASTER_CUTLINE_6_REPLY": "谢谢您，夫人。您多保重。",
+
+    "$CALLISTHESIS_ASTER_BUKRAD_1": "当然知道了，我可是布克拉德专家。\n我来这儿就是因为这个，他们叫我来修复一份损坏的卷轴，重写缺失的数据。",
+    "$CALLISTHESIS_ASTER_BUKRAD_1_REPLY": "哦，那真是太好了。我想知道红腹角布克拉德有多少条腿。",
+    "$CALLISTHESIS_ASTER_BUKRAD_2": "呵呵，这请求可真特别。亲爱的，你是想跟我这老太太开玩笑吗？",
+    "$CALLISTHESIS_ASTER_BUKRAD_2_REPLY": "不是……您为什么会这么想？",
+    "$CALLISTHESIS_ASTER_BUKRAD_3": "亲爱的，这些布克拉德在它们的同类中很有名，因为它们是唯一没有腿的。",
+    "$CALLISTHESIS_ASTER_BUKRAD_3_REPLY": "哦。什么？我是说，好吧但——行吧。",
+    "$CALLISTHESIS_ASTER_BUKRAD_4": "一切都还好吗，亲爱的？",
+    "$CALLISTHESIS_ASTER_BUKRAD_4_REPLY": "是-是啊，我只是觉得我本可以早点知道这个的。谢谢您，夫人。",
+
+    // Frontdesk recorder
+    "$CALLISTHESIS_FRONTDESK_CHOICE_PRESS1": "*按1*",
+    "$CALLISTHESIS_FRONTDESK_CHOICE_PRESS2": "*按2*",
+    "$CALLISTHESIS_FRONTDESK_CHOICE_PRESS3": "*按3*",
+    "$CALLISTHESIS_FRONTDESK_CHOICE_PRESS4": "*按4*",
+    "$CALLISTHESIS_FRONTDESK_CHOICE_YES": "*是*",
+    "$CALLISTHESIS_FRONTDESK_CHOICE_NO": "*否*",
+    "$CALLISTHESIS_FRONTDESK_RETURNMENU": "返回本机主菜单。",
+
+    "$CALLISTHESIS_FRONTDESK_DEFAULT_1_1": "本机是挪麦档案馆的自动助手。",
+    "$CALLISTHESIS_FRONTDESK_DEFAULT_1_2": "如需向我们不断扩充的档案库添加卷轴或石板，请按1。\n如需查阅现有卷轴或石板，请按2。\n如需结束与本机的交互，请按3。\n如需重新列出选项，请按4。",
+
+    "$CALLISTHESIS_FRONTDESK_ADDEDIT_1": "目前上传时出现严重数据丢失问题。\n因此，所有对档案库的添加或编辑操作都必须在管理员的监督下进行。",
+    "$CALLISTHESIS_FRONTDESK_ADDEDIT_2": "对于由此带来的不便，我们深表歉意，并向您保证，此措施是为了保护存储在此处的您的遗产。\n建议您等待管理员协助。",
+
+    "$CALLISTHESIS_FRONTDESK_SEARCH_1": "您正在查找现有的卷轴或石板。",
+    "$CALLISTHESIS_FRONTDESK_SEARCH_2": "如需查找特定作者，请按1。\n如需使用特定关键词搜索，请按2。\n如需返回本机主菜单，请按3。\n如需重新列出选项，请按4。",
+    "$CALLISTHESIS_FRONTDESK_AUTHOR": "请在键盘上输入作者姓名。",
+    "$CALLISTHESIS_FRONTDESK_AUTHOR_CHOICE_CALLIS": "*卡-莉-丝*",
+    "$CALLISTHESIS_FRONTDESK_AUTHOR_CHOICE_QUEUEINGNOMAI1": "*阿-斯-蒂-尔-贝*",
+    "$CALLISTHESIS_FRONTDESK_AUTHOR_CHOICE_QUEUEINGNOMAI2": "*阿-利-昂*",
+    "$CALLISTHESIS_FRONTDESK_AUTHOR_CHOICE_ASTER": "*埃-斯-特*",
+    "$CALLISTHESIS_FRONTDESK_AUTHOR_CHOICE_SOLANUM": "*所-莱-内-姆*",
+    "$CALLISTHESIS_FRONTDESK_KEYWORD": "请在键盘上输入关键词。",
+    "$CALLISTHESIS_FRONTDESK_KEYWORD_CHOICE_BUKRAD": "*布-克-拉-德*",
+    "$CALLISTHESIS_FRONTDESK_KEYWORD_CHOICE_THESIS": "*论-文*",
+    "$CALLISTHESIS_FRONTDESK_KEYWORD_CHOICE_SIGNAL": "*信-号*",
+    "$CALLISTHESIS_FRONTDESK_SIGNAL": "您所指的[信号]是哪种类型？请更具体说明。",
+    "$CALLISTHESIS_FRONTDESK_SIGNAL_CHOICE_HAND": "*手-势-信-号*",
+    "$CALLISTHESIS_FRONTDESK_SIGNAL_CHOICE_MORSE": "*莫-尔-斯-电-码*",
+    "$CALLISTHESIS_FRONTDESK_SIGNAL_CHOICE_ANTENNA": "*3-_-1-7-_-1-1-_-5-6-_-2*",
+
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_1": "谢谢。正在数据库中搜索条目……",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_2": "……",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_3": "……",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_CALLIS": "该作者的条目似乎设置了密码保护。\n请输入作者[卡莉丝]的密码。",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_NOTFOUND": "未找到该作者名下的卷轴。",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_RANDOM": "数据库中找到 [22 条] 条目。\n是否要将其中一条下载到新卷轴上？",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_ASTER": "数据库中找到 [68 条] 条目。\n其中包括 [1 条] 位于公共阅读区轮换展示柜 [4楼-F5]。\n是否要将其中一条下载到新卷轴上？",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_BUKRAD": "数据库中找到 [345 条] 条目。\n其中包括 [5 条] 位于公共阅读区轮换展示柜 [1楼-A2、3楼-C2、4楼-B1、4楼-E3、4楼-F5]。\n是否要将其中一条下载到新卷轴上？",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_THESIS": "关键词 [论文] 已被标记为受限，因其返回结果过多。\n建议您按作者姓名搜索，或按论文内容搜索。",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_HANDSIGNAL": "数据库中找到 [32 条] 条目。\n是否要将其中一条下载到新卷轴上？",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_MORSESIGNAL": "关键词 [论文] 已被标记为受限，因其返回结果过多。\n建议您按作者姓名搜索，或按论文内容搜索。",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_ANTENNASIGNAL_1": "%[$++~@!",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_ANTENNASIGNAL_2": "<![CDATA[<color=lightblue>..</color>]]>",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_ANTENNASIGNAL_3": "<![CDATA[<color=lightblue>早上好，哈奇探员。总部很高兴你平安抵达。</color>]]>\n<![CDATA[<color=lightblue>等待有关 TLS 行动的进一步指示。</color>]]>\n<![CDATA[<color=lightblue>在此期间，你的任务是报告邻近行星上的任何异常活动。</color>]]>",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_ANTENNASIGNAL_4": "%[$++~@!",
+    "$CALLISTHESIS_FRONTDESK_SEARCHING_ANTENNASIGNAL_5": "未找到条目。\n返回本机主菜单。",
+    "$CALLISTHESIS_FRONTDESK_SEARCHEND": "搜索已取消。\n返回本机主菜单。",
+    "$CALLISTHESIS_FRONTDESK_DOWNLOAD": "开始下载卷轴……\n预计下载时间……[25分钟]……\n请就座等待，您的卷轴即将准备就绪。",
+
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_RANDOM1": "*1-1-1-1*",
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_RANDOM2": "*1-2-3-4*",
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_RANDOM3": "*密-码-1*",
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_RANDOM4": "*用头砸键盘*",
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_FAKE1": "*1-0-3-1-7-1-1-5-6-2-6*", // 必须与日志“无用信息2”匹配
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_FAKE2": "*1-0-3-1-7-1-1-5-6-2-2*", // 必须与日志“无用信息4”匹配
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_FAKE3": "*1-0-3-1-7-1-1-5-6-2-4*", // 必须与日志“无用信息1”匹配
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_FAKE4": "*1-0-3-1-7-1-1-5-6-2-5*", // 必须与日志“无用信息5”匹配
+    "$CALLISTHESIS_FRONTDESK_PASSWORD_CHOICE_CORRECT": "*1-0-3-1-7-1-1-5-6-2-0*",
+    "$CALLISTHESIS_FRONTDESK_VALIDPASSWORD": "密码有效。欢迎用户[卡莉丝]。\n是否要下载您的卷轴副本？",
+    "$CALLISTHESIS_FRONTDESK_INVALIDPASSWORD": "输入的密码无效。无法访问条目，对此不便我们深表歉意。",
+    "$CALLISTHESIS_FRONTDESK_THESIS_1": "开始下载卷轴……",
+    "$CALLISTHESIS_FRONTDESK_THESIS_2": "您的高级账户享有诸多特权，例如更快的下载速度，以及每日无限次下载。\n预计下载时间……[2分钟]……\n请就座等待，您的卷轴即将准备就绪。",
+    "$CALLISTHESIS_FRONTDESK_THESIS_3": "卷轴已下载。感谢使用我们的服务。",
+
+    // -- Walls --
+    "$CALLISTHESIS_TICKETDISPENSER_WRITING": "售票机",
+    "$CALLISTHESIS_BALCONY": "公共阅读区。记得拿好你的会员卡！",
+    "$CALLISTHESIS_FLOOR1": "1楼 – 地理",
+    "$CALLISTHESIS_FLOOR2": "2楼 – 科技",
+    "$CALLISTHESIS_FLOOR3": "3楼 – 人文",
+    "$CALLISTHESIS_FLOOR4": "4楼 – 生物",
+    "$CALLISTHESIS_FLOOR5": "5楼 – 历史",
+    "$CALLISTHESIS_ROWA": "柜 A",
+    "$CALLISTHESIS_ROWB": "柜 B",
+    "$CALLISTHESIS_ROWC": "柜 C",
+    "$CALLISTHESIS_ROWD": "柜 D",
+    "$CALLISTHESIS_ROWE": "柜 E",
+    "$CALLISTHESIS_ROWF": "柜 F",
+
+    // -- Filler text --
+    "$CALLISTHESIS_SCROLL_1_01_1": "艾达：卡杜恩行政部门负责卡杜恩王国的所有行政事务。",
+    "$CALLISTHESIS_SCROLL_1_01_2": "艾达：考虑到卡杜恩人没有书写系统，完全依赖口头交流，这里也是他们星球上最吵闹的地方。",
+    "$CALLISTHESIS_SCROLL_1_02_1": "哈本：凭借其令人印象深刻的军事武器库，奥斯特拉夫空间站是梅斯特自治领防御系统的基石。",
+    "$CALLISTHESIS_SCROLL_1_02_2": "哈本：它同时也兼作“条纹维托克斯”队的本地体育场。",
+    "$CALLISTHESIS_SCROLL_1_03_1": "布莱特：哈瑞德系统是韦德星区的一个小型无人居住系统。",
+    "$CALLISTHESIS_SCROLL_1_03_2": "布莱特：它由一颗红矮星和两颗没有任何主要特征的冰冻行星组成。",
+    "$CALLISTHESIS_SCROLL_2_01_1": "博里亚科：塞卡光束是一种将光转化为音乐的装置。",
+    "$CALLISTHESIS_SCROLL_2_01_2": "博里亚科：它是由穆诺人和阿里扎人联合开发的，旨在促进交流。",
+    "$CALLISTHESIS_SCROLL_2_01_3": "博里亚科：穆诺人是一种失聪的虾类生物。",
+    "$CALLISTHESIS_SCROLL_2_01_4": "博里亚科：阿里扎人是一种失明的爬行生物，通过和谐的爬行类嗝声进行交流。",
+    "$CALLISTHESIS_SCROLL_2_02_1": "多鲁姆：亚坎是挪麦量子音乐播放器（NQMP 或“恩基ump”）的发明者。",
+    "$CALLISTHESIS_SCROLL_2_02_2": "多鲁姆：他的想法是，如果设备检测到用户不再关注，就切换播放的曲目，以此提升音乐聆听体验。",
+    "$CALLISTHESIS_SCROLL_2_02_3": "多鲁姆：尽管“恩基ump”的音质备受赞誉，但最终还是商业失败了，大多数用户表示他们更喜欢主动控制自己的音乐。",
+    "$CALLISTHESIS_SCROLL_3_01_1": "埃里亚：拉文·特瓦是阿约德部落的作家和作曲家。",
+    "$CALLISTHESIS_SCROLL_3_01_2": "埃里亚：他的著名作品包括情歌《我的拉图》和《与亚达共度一夜》。",
+    "$CALLISTHESIS_SCROLL_3_02_1": "梅利奥尔：乌罗鲁狂欢节是博利部落一年一度的庆祝活动。",
+    "$CALLISTHESIS_SCROLL_3_02_2": "梅利奥尔：传说它最初是作为向他们以化学为导向的领袖致敬的矿物献礼而开始的。",
+    "$CALLISTHESIS_SCROLL_3_02_3": "梅利奥尔：如今，这一习俗只是简单地通过气闸将不需要的废金属抛弃掉。",
+    "$CALLISTHESIS_SCROLL_4_01_1": "泰里姆：多尔卡德是一种深受许多昆虫爱好者喜爱的甲虫。",
+    "$CALLISTHESIS_SCROLL_4_01_2": "泰里姆：它闪亮的颜色和温顺的习性使它成为一种令人愉悦的宠物。",
+
+    // -- Main text --
+    "$CALLISTHESIS_SCROLL_1_A2_1": "莱利因：查帕达行星公园位于迪亚曼廷系统。",
+    "$CALLISTHESIS_SCROLL_1_A2_2": "莱利因：它涵盖了整个迪亚曼廷三号行星，一个拥有茂密森林的星球。",
+    "$CALLISTHESIS_SCROLL_1_A2_3": "莱利因：因此，这里也栖息着大量物种，如快舌蟾蜍、秃短吻鳄，以及著名的蓝腹角布克拉德。",
+    "$CALLISTHESIS_SCROLL_1_A2_4": "莱利因：秃短吻鳄不应与剃毛鳄鱼混淆，它们是完全不同的物种。",
+    "$CALLISTHESIS_SCROLL_1_A2_5": "莱利因：任何一位可敬的生物学家都知道，后者是一种四条腿的生物，主要以海藻为食。",
+
+    "$CALLISTHESIS_SCROLL_1_C5_1": "菲厄斯：马莫是曼库共和国的首都行星。",
+    "$CALLISTHESIS_SCROLL_1_C5_2": "菲厄斯：该共和国目前由德恩总统领导。",
+    "$CALLISTHESIS_SCROLL_1_C5_3": "菲厄斯：这座城市也是广受好评的马莫奶酪的发源地。",
+    "$CALLISTHESIS_SCROLL_1_C5_4": "菲厄斯：每年生产超过200吨奶酪。",
+    "$CALLISTHESIS_SCROLL_1_C5_5": "菲厄斯：这种奶酪是用红腹角布克鲁多的牛奶制成的，布克鲁多是一种温顺的六足哺乳动物。",
+
+    // (Yes this is the Bee movie script meme)
+    "$CALLISTHESIS_SCROLL_3_A3_1": "卢玛：根据所有已知的航空法则，蜜蜂是不可能飞起来的。",
+    "$CALLISTHESIS_SCROLL_3_A3_2": "卢玛：它的翅膀太小，根本带不动它那肥胖的身体离开地面。",
+    "$CALLISTHESIS_SCROLL_3_A3_3": "卢玛：当然，蜜蜂还是飞起来了，因为蜜蜂才不在乎人类认为什么是不可能的。",
+    "$CALLISTHESIS_SCROLL_3_A3_4": "巴里：黄黑相间。",
+    "$CALLISTHESIS_SCROLL_3_A3_5": "巴里：黄黑相间。",
+    "$CALLISTHESIS_SCROLL_3_A3_6": "巴里：黄黑相间。",
+    "$CALLISTHESIS_SCROLL_3_A3_7": "巴里：黄黑相间。",
+    "$CALLISTHESIS_SCROLL_3_A3_8": "巴里：哦，黑黄相间！",
+    "$CALLISTHESIS_SCROLL_3_A3_9": "珍妮特：巴里！早餐准备好了！",
+    "$CALLISTHESIS_SCROLL_3_A3_10": "巴里：来了！",
+
+    "$CALLISTHESIS_SCROLL_3_C2_1": "卡莉特里克斯：特拉甘是一种褐红色的鸟类，最初由梅拉部落的库维发现。",
+    "$CALLISTHESIS_SCROLL_3_C2_2": "卡莉特里克斯：这种夜行性动物以红腹角布克拉德和其他昆虫为食。",
+    "$CALLISTHESIS_SCROLL_3_C2_3": "卡莉特里克斯：由于其肉质鲜美，它成了泰敏邦联精英阶层追捧的美味佳肴。",
+
+    "$CALLISTHESIS_SCROLL_4_B1_1": "斯泰利斯：赫利孔是一种来自科尔系统达克蒂尔行星的小蜥蜴。",
+    "$CALLISTHESIS_SCROLL_4_B1_2": "斯泰利斯：它目前被列入濒危物种名单，仅存几百只。",
+    "$CALLISTHESIS_SCROLL_4_B1_3": "斯泰利斯：它们面临的主要危险是由于行星被潮汐锁定而导致的恶劣气候。",
+    "$CALLISTHESIS_SCROLL_4_B1_4": "斯泰利斯：双足红尾角布克拉德的引入进一步加剧了这一种群的减少。",
+
+    "$CALLISTHESIS_SCROLL_4_E2_1": "贝克：红眼角布克拉德，通常被称为“塔尼斯”，最初由洛维克部落的生物学家凯耶发现。",
+    "$CALLISTHESIS_SCROLL_4_E2_2": "贝克：这种大型捕食者处于科尔沃四号行星草原栖息地的食物链顶端。",
+    "$CALLISTHESIS_SCROLL_4_E2_3": "贝克：它的四条主要腿使其能够猛扑过去，然后第五条较小的腿迅速咬断猎物的脖子。",
+    "$CALLISTHESIS_SCROLL_4_E2_4": "贝克：一只塔尼斯袭击了凯耶的飞船后，他被困在这颗行星上数周。",
+    "$CALLISTHESIS_SCROLL_4_E2_5": "贝克：幸运的是，凯耶获救了，在他汇报了自己的发现后，这颗行星被严格禁止进入。",
+
+    "$CALLISTHESIS_SCROLL_5_F5_1": "翁西德：多尔斯·尼昂是一位著名的探险家，出生于银河历483E71年。",
+    "$CALLISTHESIS_SCROLL_5_F5_2": "翁西德：挪麦部落集体感谢他对档案馆的诸多贡献。",
+    "$CALLISTHESIS_SCROLL_5_F5_3": "翁西德：多亏了他，许多新的世界被绘制在了星图上。",
+    "$CALLISTHESIS_SCROLL_5_F5_4": "翁西德：他会说他最喜欢的是巨型气态行星扬克四号，他给它起了个绰号叫“大红肚子”。",
+    "$CALLISTHESIS_SCROLL_5_F5_5": "翁西德：这个绰号来源于南半球那个醒目的红点，实际上那是一场巨大的飓风。",
+
+    "$CALLISTHESIS_SCROLL_BUKRAD_1": "埃斯特：红腹角布克拉德是迄今为止发现的最难以捉摸的昆虫之一。",
+    "$CALLISTHESIS_SCROLL_BUKRAD_2": "埃斯特：它是欺骗的高手，能与周围环境融为一体。",
+    "$CALLISTHESIS_SCROLL_BUKRAD_3": "埃斯特：我研究这些迷人的生物多年，至今仍为之惊叹。",
+    "$CALLISTHESIS_SCROLL_BUKRAD_4": "埃斯特：这份卷轴包含了我收集到的所有信息<![CDATA[<Color=orange>]]>[文件损坏严重，无法继续]<![CDATA[</Color>]]>",
+
+    "$CALLISTHESIS_SCROLL_CALLIS": "卡莉丝：论棉花糖的普遍性。"
+  },
+
+  "ShipLogDictionary": {
+    "$CALLISTHESIS_LOG_PLANET_NAME": "煮鸡蛋星",
+
+    // Planet
+    "$CALLISTHESIS_LOG_PLANET_RUMOR": "这颗行星看起来像个煮鸡蛋，不是吗？",
+    "$CALLISTHESIS_LOG_PLANET_FESTIVAL": "赤道附近有一个发现节摊位，聚集了很多挪麦人。",
+    "$CALLISTHESIS_LOG_PLANET_ARCHIVE": "北极有一座大型建筑。",
+
+    // Festival
+    "$CALLISTHESIS_LOG_FESTIVAL_NAME": "挪麦发现节",
+    "$CALLISTHESIS_LOG_FESTIVAL_RUMOR": "这里有一个展示摊位，聚集了很多挪麦人。",
+    "$CALLISTHESIS_LOG_FESTIVAL_EXPL": "这里有一个展示摊位，聚集了很多挪麦人。",
+    "$CALLISTHESIS_LOG_FESTIVAL_EXPL_ALT": "这里有一个展示摊位，挪麦人将在那里向其他人展示他们的发现。",
+    "$CALLISTHESIS_LOG_FESTIVAL_CALLIS": "一个名叫卡莉丝的年轻挪麦人请求我的帮助。",
+
+    // Archives
+    "$CALLISTHESIS_LOG_ARCHIVE_NAME": "挪麦档案馆",
+    "$CALLISTHESIS_LOG_ARCHIVE_RUMOR_CALLIS": "卡莉丝提到档案馆在这颗行星的北极。",
+    "$CALLISTHESIS_LOG_ARCHIVE_RUMOR_EXPL": "北极有一座大型建筑。",
+    "$CALLISTHESIS_LOG_ARCHIVE_EXPL": "北极有一座大型建筑，挪麦人在那里存档他们的共享知识。",
+    "$CALLISTHESIS_LOG_ARCHIVE_TICKETS": "有几个挪麦人在排队，想要获取特定的卷轴。售票机在墙边。",
+    "$CALLISTHESIS_LOG_ARCHIVE_ANTENNA": "屋顶上有一根天线，发射着微弱的信号。",
+    "$CALLISTHESIS_LOG_ARCHIVE_PUBLICREADING": "有些楼层有供公众阅读的卷轴。不过我需要一张会员卡。",
+    "$CALLISTHESIS_LOG_ARCHIVE_FLOOR1": "一楼主要是“地理”相关内容。",
+    "$CALLISTHESIS_LOG_ARCHIVE_FLOOR2": "二楼主要是“技术”相关内容。",
+    "$CALLISTHESIS_LOG_ARCHIVE_FLOOR3": "三楼主要是“人文”相关内容。",
+    "$CALLISTHESIS_LOG_ARCHIVE_FLOOR4": "四楼主要是“生物”相关内容。",
+    "$CALLISTHESIS_LOG_ARCHIVE_FLOOR5": "五楼主要是“历史”相关内容。",
+
+    // Thesis
+    "$CALLISTHESIS_LOG_THESIS_NAME": "卡莉丝的论文",
+    "$CALLISTHESIS_LOG_THESIS_RUMOR": "我同意去找一份卡莉丝的论文。",
+    "$CALLISTHESIS_LOG_THESIS_INITIAL": "一个健忘的挪麦人，名叫卡莉丝，弄丢了她的论文卷轴。我同意去档案馆帮她拿一份副本。",
+    "$CALLISTHESIS_LOG_THESIS_PASSWORD": "卷轴的访问受到密码保护。",
+    "$CALLISTHESIS_LOG_THESIS_PASSWORDCLUES": "卡莉丝也忘了密码，但她给了一些关于密码可能是什么的线索。",
+    "$CALLISTHESIS_LOG_THESIS_DOWNLOADED": "我成功地将卡莉丝的论文下载到了卷轴上。（以防万一，我还在自己的飞船电脑上存了一份副本，免得再经历这一切。）",
+
+    // Bukrad
+    "$CALLISTHESIS_LOG_BUKRAD_NAME": "关于布克拉德的事实",
+    "$CALLISTHESIS_LOG_BUKRAD_RUMOR": "我需要了解更多关于布克拉德的信息来组合密码。",
+    "$CALLISTHESIS_LOG_BUKRAD_USELESS1": "一个名叫<![CDATA[<color=grey>莱利因</color>]]>的挪麦人说，<![CDATA[<color=lightblue>蓝</color>]]>腹角布克拉德有<![CDATA[<color=orange>四条腿</color>]]>。",
+    "$CALLISTHESIS_LOG_BUKRAD_USELESS2": "一个名叫<![CDATA[<color=grey>菲厄斯</color>]]>的挪麦人说，红腹角<![CDATA[<color=lightblue>布克鲁多</color>]]>有<![CDATA[<color=orange>六条腿</color>]]>。",
+    "$CALLISTHESIS_LOG_BUKRAD_USELESS3": "一个名叫<![CDATA[<color=grey>卡莉特里克斯</color>]]>的挪麦人说，红腹角布克拉德被特拉甘捕食。",
+    "$CALLISTHESIS_LOG_BUKRAD_USELESS4": "一个名叫<![CDATA[<color=grey>斯泰利斯</color>]]>的挪麦人说，红<![CDATA[<color=lightblue>尾</color>]]>角布克拉德有<![CDATA[<color=orange>两条腿</color>]]>。",
+    "$CALLISTHESIS_LOG_BUKRAD_USELESS5": "一个名叫<![CDATA[<color=grey>贝克</color>]]>的挪麦人说，红<![CDATA[<color=lightblue>眼</color>]]>角布克拉德是一种危险的动物，有<![CDATA[<color=orange>五条腿</color>]]>。",
+    "$CALLISTHESIS_LOG_BUKRAD_USELESS6": "一个名叫<![CDATA[<color=grey>翁西德</color>]]>的挪麦人说，“大红肚子”是多尔斯·尼昂最喜欢的行星。",
+    "$CALLISTHESIS_LOG_BUKRAD_HINT": "一个名叫<![CDATA[<color=grey>埃斯特</color>]]>的挪麦人在一份损坏的卷轴中说，红腹角布克拉德是欺骗的高手。",
+    "$CALLISTHESIS_LOG_BUKRAD_ANSWER": "我和一个名叫<![CDATA[<color=grey>埃斯特</color>]]>的挪麦人谈过。她告诉我，红腹角布克拉德实际上<![CDATA[<color=orange>没有腿</color>]]>。",
+
+    // Password
+    "$CALLISTHESIS_LOG_PASSWORD_NAME": "卡莉丝的密码",
+    "$CALLISTHESIS_LOG_PASSWORD_RUMOR": "我需要密码才能访问卡莉丝的论文卷轴。",
+    "$CALLISTHESIS_LOG_PASSWORD_BASE": "我需要密码才能访问卡莉丝的论文卷轴。",
+    "$CALLISTHESIS_LOG_PASSWORD_CLUES": "卡莉丝不记得密码了，但她给了我一些重建密码的线索。",
+
+    // Password - Part 1
+    "$CALLISTHESIS_LOG_PASSWORDPART1_NAME": "第一部分",
+    "$CALLISTHESIS_LOG_PASSWORDPART1_ANSWER": "卡莉丝告诉我，密码的第一部分是她第一次参加发现节时的年龄，10岁。",
+
+    // Password - Part 2
+    "$CALLISTHESIS_LOG_PASSWORDPART2_NAME": "第二部分",
+    "$CALLISTHESIS_LOG_PASSWORDPART2_CLUE": "根据卡莉丝的说法，她密码的第二部分和档案馆的广播信号相同。",
+
+    // Password - Part 3
+    "$CALLISTHESIS_LOG_PASSWORDPART3_NAME": "第三部分",
+    "$CALLISTHESIS_LOG_PASSWORDPART3_CLUE": "关于密码的第三部分，我需要知道红腹角布克拉德有多少条腿。"
+  }
+
+}
